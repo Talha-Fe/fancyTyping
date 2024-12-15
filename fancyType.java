@@ -35,12 +35,12 @@ public class fancyType {
 			// USER INPUT LENGTH
 			for(int j = 0; j < word.length(); j++) {
 				
-				String currentChar = String.valueOf(word.charAt(j)); //CHATGPT made this part
+				String currentChar = String.valueOf(word.charAt(j)); ////IF WE DONT USE THIS THE PROGRAM CAN'T MATCH THE CHARACTERS (I DIDN'T MADE THIS LINE)
 				
 				// ALPHABET FOR LOOP
 				for(int i = 0; i < 63 ;i++) {
 					
-					// SLOWİNG DOWN THE PROGRAM SO WE CAN SEE 
+					// SLOWING DOWN THE PROGRAM SO WE CAN SEE 
 					Thread.sleep(10);
 					
 				if(alphabet[i].equals(currentChar)) {
