@@ -16,7 +16,7 @@ public class fancyType {
 		
 		Scanner userIn = new Scanner(System.in);
 		
-		System.out.print("Type your word: ");
+		System.out.print("Type something: ");
 		String word = userIn.nextLine();
 		
 		// OUR LAST OUTPUT
